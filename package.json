@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace @example/ember start",
+    "clean": "find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \\;"
+  }
+}
