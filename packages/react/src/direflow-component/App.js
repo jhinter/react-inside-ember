@@ -7,7 +7,7 @@ const App = (props) => {
   const dispatch = useContext(EventContext);
 
   const handleClick = () => {
-    const event = new Event('my-event');
+    const event = new Event('example-event-from-react');
     dispatch(event);
   };
 
@@ -27,7 +27,7 @@ const App = (props) => {
           <div className='header-title'>{props.componentTitle}</div>
           <div>{renderSampleList}</div>
           <button className='button' onClick={handleClick}>
-            Let&apos;s go!
+            Click!
           </button>
         </div>
       </div>
