@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "start": "yarn workspace @example/ember start",
+    "build": "yarn workspace @example/ember build",
     "clean": "find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \\;"
   }
 }

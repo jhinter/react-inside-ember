@@ -4,6 +4,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "postbuild": "cp ./build/direflowBundle.js ../ember/vendor/direflowBundle.js",
     "test": "react-app-rewired test --env=jest-environment-jsdom-fourteen"
   },
   "dependencies": {

@@ -2,6 +2,7 @@
   "name": "@example/ember",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "yarn workspace @example/react build", 
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
     "lint:hbs": "ember-template-lint .",
