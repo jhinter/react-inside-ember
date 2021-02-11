@@ -2,14 +2,11 @@
   "name": "@example/ember",
   "version": "1.0.0",
   "scripts": {
-    "prebuild": "yarn workspace @example/react build", 
+    "build:webcomponent": "yarn workspace @example/react build", 
+    "prebuild": "yarn build:webcomponent", 
+    "prestart": "yarn build:webcomponent", 
     "build": "ember build --environment=production",
-    "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
-    "lint:hbs": "ember-template-lint .",
-    "lint:js": "eslint .",
-    "start": "ember serve",
-    "test": "npm-run-all lint:* test:*",
-    "test:ember": "ember test"
+    "start": "ember serve"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
