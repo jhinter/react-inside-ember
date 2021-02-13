@@ -13,16 +13,20 @@
 .top {
   width: 100%;
   height: 50%;
-  border-bottom: 2px solid #7998c7;
+  border-bottom: 2px solid #61dafb;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.top img{
+  height: 160px;
+}
+
 .bottom {
   width: 100%;
   height: 50%;
-  border-top: 2px solid #7998c7;
+  border-top: 2px solid #61dafb;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -31,14 +35,14 @@
 
 .header-image {
   width: 165px;
-  height: 165px;
-  background: url('https://silind-s3.s3.eu-west-2.amazonaws.com/direflow/logo.svg');
-  background-size: contain;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png');
+  background-position: center;
+  background-size:cover;
 }
 
 .header-title {
   font-size: 34px;
-  color: #5781C2;
+  color: #61dafb;
   font-family: 'Advent Pro', sans-serif;
 }
 
@@ -54,9 +58,8 @@
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: #5781C2;
+  background-color: #61dafb;
   color: white;
-  box-shadow: 2px 2px 5px #16314d98;
   outline: none;
   border: 0;
   cursor: pointer;
@@ -64,6 +67,5 @@
 }
 
 .button:hover {
-  box-shadow: 4px 4px 8px #16314d63;
-  background-color: #40558f;
+  background-color: #4eb1cc;
 }
