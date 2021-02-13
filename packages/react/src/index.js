@@ -5,11 +5,7 @@ const direflowComponent = new DireflowComponent();
 
 const direflowProperties = {
   componentTitle: 'Example React App',
-  sampleList: [
-    'Create with React',
-    'Build as Web Component',
-    'Use it anywhere!',
-  ],
+  color: undefined
 };
 
 const direflowPlugins = [

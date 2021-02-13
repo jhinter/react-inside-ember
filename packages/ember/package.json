@@ -2,9 +2,9 @@
   "name": "@example/ember",
   "version": "1.0.0",
   "scripts": {
-    "build:webcomponent": "yarn workspace @example/react build", 
-    "prebuild": "yarn build:webcomponent", 
-    "prestart": "yarn build:webcomponent", 
+    "build:webcomponent": "yarn workspace @example/react build",
+    "prebuild": "yarn build:webcomponent",
+    "prestart": "yarn build:webcomponent",
     "build": "ember build --environment=production",
     "start": "ember serve"
   },
@@ -45,5 +45,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "@ember/render-modifiers": "^1.0.2"
   }
 }

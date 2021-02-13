@@ -4,7 +4,10 @@
         <h2>Ember context</h2>
         <div class="react">
             <h2>React context</h2>
-            <example-react-app></example-react-app>
+            <example-react-app
+                {{did-insert this.registerListener}}
+                {{will-destroy this.unregisterListener}}>
+            ></example-react-app>
         </div>
     </div>
 </div>

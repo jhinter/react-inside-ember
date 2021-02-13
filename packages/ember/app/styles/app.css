@@ -9,6 +9,7 @@ body {
 .content .ember {
     border: 3px #e04e39 solid;
     padding: 12px;
+    background: rgb(236, 236, 236);
 }
 
 .content .ember h2 {
@@ -20,6 +21,7 @@ body {
 .content .react {
     border: 3px #61dafb solid;
     padding: 12px;
+    background: white;
 }
 .content .react h2 {
     color: #61dafb;
